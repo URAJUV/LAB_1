@@ -1,0 +1,25 @@
+Prim Algorithm
+
+Time Complexity:
+
+The time complexity of the implementation is O(V^2) where V is number of vertices.
+
+Space complexity
+The space complexity of the  implementation is  VxV size matrix array.
+
+
+Kruskal Algorithm
+
+Time Complexity:
+
+O(ElogE) or O(ElogV).
+Sorting of edges takes O(ELogE) time.
+After sorting, we iterate through all edges and apply the find-union algorithm.
+The find and union operations can take at most O(LogV) time.
+So overall complexity is O(ELogE + ELogV) time. The value of E can be at most O(V2), so O(LogV) is O(LogE) the same.
+Therefore, the overall time complexity is O(ElogE) or O(ElogV)
+
+Space complexity
+
+No extra space is needed we need space to store graph in array[Vertices][Edges]
+
